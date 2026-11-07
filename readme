@@ -1,0 +1,75 @@
+🚗 Car Logo Quiz App
+
+A React Native mobile application built for a school assignment. The app presents users with car logos and lets them select the correct brand name using a custom Question component and the @react-native-picker/picker dropdown library.
+
+🛠️ Features
+
+Custom Components: Reusable Question component for layout consistency.
+
+Dynamic Picker: Dropdown option selection for each quiz item using @react-native-picker/picker.
+
+Score Calculation: Score evaluation using simple if-else condition checks.
+
+Feedback Alerts: Results dialog displaying tailored feedback based on the user's total score.
+
+Vector Icons: Header icon powered by @expo/vector-icons/MaterialCommunityIcons.
+
+Scrollable Layout: Responsive view wrapped in ScrollView with full height padding.
+
+📂 Project Structure
+
+├── App.js                  # Main application container & logic
+├── components/
+│   └── question.js         # Custom re-usable question component
+├── package.json            # Dependencies and app scripts
+└── README.md               # Project documentation
+
+
+🚀 Getting Started
+
+1. Prerequisites
+
+Ensure you have the following installed on your machine:
+
+Node.js (v14 or higher recommended)
+
+npm or yarn
+
+Expo Go App (on your iOS/Android physical device) or Android Studio / Xcode Emulator
+
+2. Installation
+
+Install the required dependencies, including the React Native Picker and Vector Icons packages:
+
+# Install general dependencies
+npm install
+
+# Install picker library
+npm install @react-native-picker/picker
+
+# Install Expo Vector Icons (if using Expo)
+npx expo install @expo/vector-icons
+
+
+🏃 Running the App
+
+Start the Expo development server:
+
+npx expo start
+
+
+Android Emulator: Press a in your terminal window.
+
+iOS Simulator: Press i in your terminal window.
+
+Physical Device: Scan the QR code displayed in your terminal using the Expo Go app.
+
+📝 Technologies Used
+
+React Native (Functional Components, useState)
+
+Expo Framework
+
+@react-native-picker/picker
+
+@expo/vector-icons
